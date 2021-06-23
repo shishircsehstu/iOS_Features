@@ -42,3 +42,40 @@ func fetchData(){
             print(error.localizedDescription)
         }
     }
+
+// Sample Json file
+
+{
+    "myData": [
+        {
+            "title": "Fruites",
+            "items": [
+                "Apple",
+                "Orange",
+                "Banana",
+                "Malta"
+            ]
+        },
+        {
+            "title": "Cars",
+            "items": [
+                "BMW",
+                "Mercedes-Benz",
+                "Honda",
+                "Kawasaki",
+                "Volkswagen"
+            ]
+        },
+        {
+            "title": "Country",
+            "items": [
+                "Bangladesh",
+                "Turky",
+                "Palestine",
+                "Siriya"
+            ]
+        }
+    ],
+    "status": "okay"
+}
+
