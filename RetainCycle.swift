@@ -1,9 +1,5 @@
-//
-//  RetainCycle.swift
-//  MyPractiseApp
-//
-//  Created by Md Saddam Hossain on 31/10/21.
-//
+
+// When two boject are hold strong reference with each other, then retain cycle is occurred. 
 
 import Foundation
 import UIKit
