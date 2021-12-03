@@ -72,7 +72,8 @@ Now need a function that can convert JSON data to structure type array. Let’s 
         return allStd
         
     }
-Now call above function from your class.
+Now call above function from your class.![Screenshot-2021-03-28-at-2 59 42-PM-768x513](https://user-images.githubusercontent.com/29371886/144553380-ae47aff3-203c-4e0d-9e2a-ac52f7521aab.png)
+
 
  override func viewDidLoad() {
         super.viewDidLoad()
