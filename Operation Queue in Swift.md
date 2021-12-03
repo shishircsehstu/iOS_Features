@@ -1,5 +1,6 @@
 ## Operation Queue
 
+Operation Queue is a special queue to which we can add our operations to have them executed on a separate thread. It is a kind of FIFO queue.
 
  private func calculate() {
         print("Start..")
