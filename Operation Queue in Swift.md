@@ -2,7 +2,6 @@
 
  private func calculate() {
         print("Start..")
-        
         ProgressHUD.show()
         let queue = OperationQueue()
         let blockOperation = BlockOperation {
