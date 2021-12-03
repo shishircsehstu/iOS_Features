@@ -28,11 +28,6 @@ Operation Queue is a special queue to which we can add our operations to have th
         queue.addOperation(blockOperation)
     }
     
-    
-Output
------
-Start..
-Fake End
-Ended 2450000035000000
-Ended
+
+
 
