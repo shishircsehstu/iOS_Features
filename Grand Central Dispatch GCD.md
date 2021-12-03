@@ -10,3 +10,9 @@
         }
         
 ### 3. Concurrent Queues (Global Dispatch Queues)
+Concurrent queues execute one or more tasks in the same time. 
+ 
+        DispatchQueue.global(qos: .background).async {
+          //self.doSomething()
+        }
+        
