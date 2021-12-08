@@ -40,4 +40,12 @@ This method is called every time the frame changes like for example when rotate 
    override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
     }
+```
+### viewDidAppear
+- This method gets called after the view controller appears on screen.
+   ```
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+    }
+ ```
     
