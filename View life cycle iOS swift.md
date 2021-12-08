@@ -25,3 +25,12 @@ This Method is called every time before the view are visible to and before any a
     }
     
 ```
+### viewWillLayoutSubviews
+This method is called every time the frame changes like for example when rotate or it’s marked as needing layout. It’s the first step where the view bounds are final.
+
+```
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
+    }
+```
