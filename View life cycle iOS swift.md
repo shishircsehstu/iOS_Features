@@ -17,3 +17,11 @@ This Method is loaded once in view controller life cycle .Its Called When all th
     }
     
 ```
+### viewWillAppear
+This Method is called every time before the view are visible to and before any animation are configured
+```
+ override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+    }
+    
+```
