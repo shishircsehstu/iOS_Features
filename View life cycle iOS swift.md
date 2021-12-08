@@ -50,3 +50,11 @@ This method is called every time the frame changes like for example when rotate 
   ```
 ### viewWillDisappear
 - This method called before the view are remove from the view hierarchy. 
+### viewDidDisappear()
+- After a view controller gets removed from the screen, this method gets called.
+ ```
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(true)
+    }
+ ```
+ 
