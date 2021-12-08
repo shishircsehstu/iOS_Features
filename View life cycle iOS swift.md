@@ -36,9 +36,8 @@ This method is called every time the frame changes like for example when rotate 
 ```
 ### viewDidLayoutSubviews
 - Make additional changes here after the view lays out its subviews.
-- 
 ```
-    override func viewDidLayoutSubviews() {
+   override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
     }
     ```
