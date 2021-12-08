@@ -47,4 +47,6 @@ This method is called every time the frame changes like for example when rotate 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
     }
- ```
+  ```
+### viewWillDisappear
+- This method called before the view are remove from the view hierarchy. 
