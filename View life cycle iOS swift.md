@@ -8,7 +8,9 @@ This method use when view Controller create from code .Its good not to do anythi
     }
     
 ```
-### 
+### viewDidLoad
+This Method is loaded once in view controller life cycle .Its Called When all the view are loaded. 
+
 ```
  override func viewDidLoad() {
         super.viewDidLoad()
