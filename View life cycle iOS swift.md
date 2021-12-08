@@ -48,4 +48,3 @@ This method is called every time the frame changes like for example when rotate 
         super.viewDidAppear(true)
     }
  ```
-    
