@@ -13,9 +13,6 @@
 
 ```
 // for receive
-
-        NotificationCenter.default.addObserver(self, selector: #selector(reloadCollectonView), name: NSNotification.Name(rawValue: "RELOAD_COLLECTION_VIEW"), object: nil)
-        
-        
-        
+NotificationCenter.default.addObserver(self, selector: #selector(reloadCollectonView), name: NSNotification.Name(rawValue: "RELOAD_COLLECTION_VIEW"), object: nil)
+    
 ```
