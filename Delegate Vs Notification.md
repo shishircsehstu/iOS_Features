@@ -5,6 +5,17 @@
 
 - Notification is used for 1 to many relation or communication. 
 
+
 ```
+//for post 
  NotificationCenter.default.post(name: Notification.Name("RELOAD_COLLECTION_VIEW"), object:nil, userInfo: nil)
+```
+
+```
+// for receive
+
+        NotificationCenter.default.addObserver(self, selector: #selector(reloadCollectonView), name: NSNotification.Name(rawValue: "RELOAD_COLLECTION_VIEW"), object: nil)
+        
+        
+        
 ```
