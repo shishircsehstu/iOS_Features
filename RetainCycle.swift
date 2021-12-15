@@ -1,6 +1,6 @@
-```
- When two boject are hold strong reference with each other, then retain cycle is occurred. 
-```
+
+ //When two boject are hold strong reference with each other, then retain cycle is occurred. 
+
 import Foundation
 import UIKit
 
