@@ -57,3 +57,5 @@ class ViewController: UIViewController {
 
 }
 
+// By using weak , we can remove retain cycle.
+  weak var personPhn: Phone?
