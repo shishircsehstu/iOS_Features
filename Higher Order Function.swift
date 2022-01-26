@@ -1,4 +1,13 @@
+    struct personInfo{
     
+    var name: String
+    var age: Int
+    init(name: String, age: Int){
+        self.name = name
+        self.age = age
+    }
+}
+
 
      func filterImplement(){
         
@@ -17,4 +26,33 @@
         // return whose name contains 4 letter.
         print(newNames)
         //Output: ["jack", "Mack"]
+    }
+
+
+
+    func mapImplement(){
+        
+        let numbers = [1,2,5,7]
+        let doubled = numbers.map { $0 * 2 }
+        print(doubled)
+        //Output: [2, 4, 10, 14]
+        
+        
+        let names = ["azad","Adam","John"]
+        let upperLetter = names.map{$0.uppercased()}
+        print(upperLetter)
+        //output: ["AZAD", "ADAM", "JOHN"]
+        
+        var persons = [personInfo]()
+        
+        persons.append(personInfo(name: "Azad", age: 21))
+        persons.append(personInfo(name: "Joss", age: 17))
+        persons.append(personInfo(name: "Jacks", age: 30))
+        persons.append(personInfo(name: "Rafik", age: 20))
+        
+        let ages = persons.map{ $0.age }
+        print(ages)
+        //Output: [21, 17, 30, 20]
+        
+        
     }
