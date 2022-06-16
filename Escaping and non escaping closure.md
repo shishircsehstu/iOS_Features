@@ -6,3 +6,5 @@
 ## Why they made @nonescaping by default?
 
 There are many different benefits of making non-escaping as by default. The most important benefits are performance and code optimisation by the compiler, because if the compiler knows that the closure is non-escaping, will take care about the memory allocation for the closure.
+
+-  We don’t need to use ` weak self ` this is the additional feature.
