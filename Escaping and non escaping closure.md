@@ -34,4 +34,10 @@ So escaping closure will remain in memory and therefore we have to add [Weak sel
                 }
             }
         }.resume()
-    } `
+    } 
+    
+    #Usage
+  downloadImage(imgURL: imgURL) { [weak self] (img) in
+            
+   }
+
