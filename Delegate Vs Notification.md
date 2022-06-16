@@ -1,5 +1,5 @@
 ### Delegation
-- Delegation is used for 1 to 1 relation or communication. 
+ - Delegation is an iOS application design pattern that is used for 1 to 1 relation or communication one class to another class. 
 
 ### Notification 
 
