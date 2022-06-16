@@ -16,8 +16,7 @@ When we need to API calls where code is running asynchronously and execution tim
 So escaping closure will remain in memory and therefore we have to add [Weak self] in closure body to avoid retain count/ cycle.
 
 ` code `
-    
-    #Usage
+
   downloadImage(imgURL: imgURL) { [weak self] (img) in
             
    }
