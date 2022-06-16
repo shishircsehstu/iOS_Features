@@ -10,3 +10,32 @@ There are many different benefits of making non-escaping as by default. The most
 -  No need to use ` weak self ` this is the additional feature.
 
 ## @escaping
+
+
+When we need to API calls where code is running asynchronously and execution time is unknown. It may consume some moment for fetcing data, so it's contains or hold memory after execution time finished it callback to caller. 
+So escaping closure will remain in memory and therefore we have to add [Weak self] in closure body to avoid retain count/ cycle.
+
+`
+func downloadImage(imgURL: URL, completion: @escaping (UIImage?)->()){
+        
+        URLSession.shared.dataTask(with: imgURL) { (data, respnse, error) in
+            if let error = error {
+                print("Error: \(error)")
+                
+            }else if let data = data {
+                DispatchQueue.main.async {
+                    let image = UIImage(data: data)
+                    
+                    if let img = image{
+                        
+                        completion(img)
+                    }else{
+                        completion(nil)
+                    }
+                }
+            }
+        }.resume()
+    }
+    `
+    
+    Usage
