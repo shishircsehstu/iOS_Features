@@ -17,6 +17,27 @@ So escaping closure will remain in memory and therefore we have to add [Weak sel
 
 ` code `
 
+
+ func downloadImage(imgURL: URL, completion: @escaping (UIImage?)->()){        
+        URLSession.shared.dataTask(with: imgURL) { (data, respnse, error) in
+            if let error = error {
+                print("Error: \(error)")
+                
+            }else if let data = data {
+                DispatchQueue.main.async {
+                    let image = UIImage(data: data)
+                    
+                    if let img = image{
+                        
+                        completion(img)
+                    }else{
+                        completion(nil)
+                    }
+                }
+            }
+        }.resume()
+    }
+    
   downloadImage(imgURL: imgURL) { [weak self] (img) in
             
    }
