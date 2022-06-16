@@ -16,25 +16,6 @@ When we need to API calls where code is running asynchronously and execution tim
 So escaping closure will remain in memory and therefore we have to add [Weak self] in closure body to avoid retain count/ cycle.
 
 ` code `
- func downloadImage(imgURL: URL, completion: @escaping (UIImage?)->()){        
-        URLSession.shared.dataTask(with: imgURL) { (data, respnse, error) in
-            if let error = error {
-                print("Error: \(error)")
-                
-            }else if let data = data {
-                DispatchQueue.main.async {
-                    let image = UIImage(data: data)
-                    
-                    if let img = image{
-                        
-                        completion(img)
-                    }else{
-                        completion(nil)
-                    }
-                }
-            }
-        }.resume()
-    } 
     
     #Usage
   downloadImage(imgURL: imgURL) { [weak self] (img) in
