@@ -18,10 +18,10 @@ Concurrent queues execute one or more tasks in the same time.
         
 ## QoS (Quality of Service)
 
-userInteractive: Used for animations, or updating UI.
+- userInteractive: Used for animations, or updating UI.
 
-userInitiated: Used for tasks like loading data from API, preventing the user from making interactions.
+- userInitiated: Used for tasks like loading data from API, preventing the user from making interactions.
 
-utility: Used for tasks that do not need to be tracked by the user.
+- utility: Used for tasks that do not need to be tracked by the user.
 
-background: Used for tasks like saving data in the local database or any maintenance code which is not on high priority.
+- background: Used for tasks like saving data in the local database or any maintenance code which is not on high priority.
