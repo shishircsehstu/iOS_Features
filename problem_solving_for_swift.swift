@@ -6,3 +6,8 @@ var dp = [[Int]](repeating: [Int](repeating: -1, count: 5003), count: 303)
 
 // Find ascci value
 var val = Int(yourChar.asciiValue!)
+
+//map using dictionary 
+var map = [Int: Int]()
+map[-1] = 1
+print(map[-1]!)
