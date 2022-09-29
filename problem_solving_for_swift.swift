@@ -38,4 +38,10 @@ func sortByCondition(){
     for point in str{
         print(point.x," ",point.y)
     }
+    
 }
+//output
+0   10
+1   1
+1   2
+2   20
