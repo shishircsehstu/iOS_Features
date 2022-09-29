@@ -11,3 +11,31 @@ var val = Int(yourChar.asciiValue!)
 var map = [Int: Int]()
 map[-1] = 1
 print(map[-1]!)
+
+
+// Sort by conditions
+struct Points{
+    var x: Int
+    var y: Int
+}
+func sortByCondition(){
+
+    var points = [Points]()
+    points.append(Points(x: 2, y: 20))
+    points.append(Points(x: 0, y: 10))
+    points.append(Points(x: 1, y: 2))
+    points.append(Points(x: 1, y: 1))
+
+    var str = points.sorted { p1, p2 in
+
+        if p1.x==p2.x{
+            return p1.y<p2.y
+        }
+        return p1.x<p2.x
+    }
+
+
+    for point in str{
+        print(point.x," ",point.y)
+    }
+}
