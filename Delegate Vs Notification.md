@@ -1,6 +1,5 @@
 ### Delegation
- - Delegation is an iOS application design pattern that is used for 1 to 1 relation or communication one class to another class. 
-
+ - Delegation is an iOS application design pattern that is used for 1 to 1 relation or communication one class to another class. Delegate is the reference of class which is going to confirm to the protocol.
 ### Notification 
 
 - Notification is used for 1 to many relation or communication. 
