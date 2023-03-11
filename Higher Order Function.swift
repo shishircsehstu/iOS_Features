@@ -64,6 +64,11 @@
         
         // compactMap removed the all nil values
         
+        //Flat map
+        let star2D = [["AA","BB"],["CC","DD"]]
+        let str = star2D.flatMap({$0})
+        print(str)// ["AA", "BB", "CC", "DD"]
+        
        /* In summary, if you need to transform an array and remove any nil values, use compactMap.
         If you need to flatten an array and remove any nil values resulting from the transformation, use flatMap.
         */
