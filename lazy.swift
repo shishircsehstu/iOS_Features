@@ -1,4 +1,5 @@
-// A lazy stored property is a property whose initial value isn't calculated until the first time it's used.
+// A lazy stored property is a property whose initial value isn't calculated until the first time it's used. Most of the time lazy called only one time but 
+// there is no guarantee that always called one time at the time of using multiple thread.  
 
 class Device{
     
