@@ -26,3 +26,26 @@ class Device{
     
 }
 
+
+       let obj = Device()
+        print(obj.nonLazyValue)
+        print(obj.lazyValue)
+        let obj2 = Device()
+        print(obj.nonLazyValue)
+        print(obj.lazyValue)
+
+// Output
+non lazy:  1
+non lazy:  3
+non lazy:  6
+6
+Lazy : 1
+Lazy : 3
+Lazy : 6
+Lazy called
+6
+non lazy:  1
+non lazy:  3
+non lazy:  6
+6
+6
