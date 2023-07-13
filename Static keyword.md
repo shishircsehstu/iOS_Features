@@ -2,11 +2,6 @@ When we define a variable or properties using static keyword, it can share the v
 By adding the Static keyword to an object’s properties and methods we can use them without the need of creating an instance first. 
 (note that both variables and constants can be static as well.)
 
-//  Created by Saddam on 24/5/23.
-//
-
-import UIKit
-
 class AA{
     
     static var count = 0
@@ -14,7 +9,6 @@ class AA{
     init() {
         AA.count += 1
     }
-    
     static func add(){
         print("Do somethings..")
     }
