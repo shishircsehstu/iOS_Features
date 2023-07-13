@@ -12,3 +12,11 @@ class AA{
         print("Do somethings..")
     }
 }
+        
+        let ob = AA()
+        print(AA.count)//1
+        let ob2 = AA()
+        print(AA.count)//2
+        AA.add() // No need to make object for add function call
+
+
