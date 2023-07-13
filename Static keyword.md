@@ -3,9 +3,7 @@ By adding the Static keyword to an object’s properties and methods we can use 
 (note that both variables and constants can be static as well.)
 
 class AA{
-    
     static var count = 0
-    
     init() {
         AA.count += 1
     }
