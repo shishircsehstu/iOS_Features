@@ -1,4 +1,5 @@
-# Generics used write code that works for multiple types and specify requirements for those types.
+# Generics
+used write code that works for multiple types and specify requirements for those types.
 
 func getMaxVal<T: Comparable>(a: T, b: T)->T{
     return a>b ? a:b
