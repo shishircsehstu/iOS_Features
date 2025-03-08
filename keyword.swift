@@ -4,7 +4,7 @@ Here is a complete list of all reserved keywords in Swift, categorized and witho
 # Declaration Keywords
 associatedtype
 inout
-subscript
+subscript ("Subscripts enable classes, structures, and enumerations to define shortcuts for accessing elements from a collection, list, or sequence.")
 defer
 fallthrough
 repeat
