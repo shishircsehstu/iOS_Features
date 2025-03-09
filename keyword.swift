@@ -11,7 +11,7 @@ repeat
 actor
 await (In Swift, the await keyword is used in asynchronous programming with Swift Concurrency (async/await). It allows you to pause the execution of a function until an asynchronous task completes. This helps write more readable and maintainable asynchronous code without using completion handlers.)
 nonisolated
-dynamic
+dynamic (-KVO Key-Value Observing)
 Task
 open  (Can be subclassed or overridden outside the module or framework)
 public (Cannot be subclassed or overridden outside the module or framework)
