@@ -13,12 +13,12 @@ await (In Swift, the await keyword is used in asynchronous programming with Swif
 nonisolated
 dynamic
 Task
-open
-public
+open  (Can be subclassed or overridden outside the module or framework)
+public (Cannot be subclassed or overridden outside the module or framework)
 internal
 private
 fileprivate
-super
+super (super keyword is used to call methods, properties, or initializers from a superclass within a subclass.)
 infix
 prefix
 postfix
