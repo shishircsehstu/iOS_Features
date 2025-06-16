@@ -1,0 +1,3 @@
+Swift concurrency automatically handles main thread dispatch for UI updates when you use @MainActor:
+
+When use  @MainActor in a class or methods its automatically run in main thread and updates UI. 
