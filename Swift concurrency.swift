@@ -10,3 +10,6 @@ Task { }
 Actors
 TaskGroup
 MainActor, @Sendable, @MainActor, etc.
+
+Synchronous: The task blocks the current thread until it completes
+Asynchronous: The task starts but allows the current thread to continue, with results delivered later
