@@ -27,5 +27,9 @@ Concurrent queues execute one or more tasks in the same time.
      High priority. Tasks initiated by the user that must complete quickly but not instantly.
      Opening a document, performing a quick calculation after a button tap
 - utility: Used for tasks that do not need to be tracked by the user.
-
+     Lower priority. For tasks that take time and the user is aware of the progress. Energy-efficient.
+     Downloading files, importing data, showing a progress bar
+  
 - background: Used for tasks like saving data in the local database or any maintenance code which is not on high priority.
+    Lowest priority. For tasks the user isn’t directly aware of.
+    Prefetching data, syncing to cloud, cleanup
