@@ -20,8 +20,8 @@ Concurrent queues execute one or more tasks in the same time.
 
 - userInteractive: Used for animations, or updating UI.
 
-Highest priority. For tasks that update the UI immediately or require instant results. Runs on the main thread or high-priority background threads.
-Animations, responding to touches, updating UI instantly
+    Highest priority. For tasks that update the UI immediately or require instant results. Runs on the main thread or high-priority background threads.
+    Animations, responding to touches, updating UI instantly
 
 - userInitiated: Used for tasks like loading data from API, preventing the user from making interactions.
 
