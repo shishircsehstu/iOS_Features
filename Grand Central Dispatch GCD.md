@@ -24,7 +24,8 @@ Concurrent queues execute one or more tasks in the same time.
     Animations, responding to touches, updating UI instantly
 
 - userInitiated: Used for tasks like loading data from API, preventing the user from making interactions.
-
+     High priority. Tasks initiated by the user that must complete quickly but not instantly.
+     Opening a document, performing a quick calculation after a button tap
 - utility: Used for tasks that do not need to be tracked by the user.
 
 - background: Used for tasks like saving data in the local database or any maintenance code which is not on high priority.
