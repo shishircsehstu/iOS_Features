@@ -1,4 +1,4 @@
-Protocol: A protocol is a blueprint of methods, properties, and other requirements to support a particular task.
+Protocol: A protocol is a blueprint of methods, properties, and other requirements to support a particular task. For implementing the default behavior we need to use extension of protocol and also need protocol extend for make optional protocol. 
 
 Delegate: Delegate is the reference of class which is going to confirm to the protocol.  
 
