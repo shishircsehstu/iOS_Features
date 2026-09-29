@@ -12,7 +12,7 @@ There are many different benefits of making non-escaping as by default. The most
 
 ## @escaping
 
-escaping closure is executed completely before the function finishes and returns.
+escaping closure is executed completely after the function finishes and returns.
 When we need to API calls where code is running asynchronously and execution time is unknown. It may consume some moment for fetcing data, so it's contains or hold memory after execution time finished it callback to caller. 
 So escaping closure will remain in memory and therefore we have to add [Weak self] in closure body to avoid retain count/ cycle.
 
